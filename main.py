@@ -1,8 +1,9 @@
 print("Для игры вам необходмо ввести 2 числа, пример поля ниже")
 print("Пример поля:")
-print("[00][01][02]")
-print("[10][11][12]")
-print("[20][21][22]")
+print("     0   1   2")
+print(" 0 [00][01][02]")
+print(" 1 [10][11][12]")
+print(" 2 [20][21][22]")
 print()
 print()
 name_1=input("Введите имя Игрока №1:")
@@ -13,9 +14,10 @@ def invite_x():
     while True:
         print(f"Ход Игорока {name_1}, у вас X:")
         print("Пример поля:")
-        print("[00][01][02]")
-        print("[10][11][12]")
-        print("[20][21][22]")
+        print("     0   1   2")
+        print(" 0 [00][01][02]")
+        print(" 1 [10][11][12]")
+        print(" 2 [20][21][22]")
         try:
             row = int(input("row"))
             col = int(input("col"))
@@ -32,6 +34,7 @@ def invite_x():
                 print("Неверное значение, введите цифру от 0 до 2х")
         except ValueError:
             print("Введите цифру от 0 до 2х")
+
     for new in board:
         print(new)
     print()
@@ -41,9 +44,10 @@ def invite_o():
     while True:
         print(f"Ход Игорока {name_2}, у вас O:")
         print("Пример поля:")
-        print("[00][01][02]")
-        print("[10][11][12]")
-        print("[20][21][22]")
+        print("     0   1   2")
+        print(" 0 [00][01][02]")
+        print(" 1 [10][11][12]")
+        print(" 2 [20][21][22]")
         try:
             row = int(input("row"))
             col = int(input("col"))
