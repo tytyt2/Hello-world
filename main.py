@@ -29,7 +29,7 @@ def invite_x():
                         print("Жульничать не хорошо, выбери другое место")
                         continue
             else:
-                print("неверное значение")
+                print("Неверное значение, введите цифру от 0 до 2х")
         except ValueError:
             print("Введите цифру от 0 до 2х")
     for new in board:
@@ -58,7 +58,7 @@ def invite_o():
                     continue
 
             else:
-                print("неверное значение")
+                print("Неверное значение, введите цифру от 0 до 2х")
         except ValueError:
             print("Введите цифру от 0 до 2х")
     for new in board:
